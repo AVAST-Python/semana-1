@@ -1,0 +1,19 @@
+{
+  "name": "reveal-vite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alvaro Maceda <alvaro.maceda@ceedcv.es>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --port 8080",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "reveal.js": "^4.6.1",
+    "vite": "^4.4.9"
+  },
+  "devDependencies": {
+    "@types/reveal.js": "^4.4.2"
+  }
+}
