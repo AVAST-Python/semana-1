@@ -7,6 +7,7 @@ const outDir = resolve(__dirname, 'dist')
 export default {
   // config options
   root,
+  base: '',
   build: {
     outDir,
     emptyOutDir: true,
