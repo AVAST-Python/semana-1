@@ -18,8 +18,9 @@ Hello, world.
 - Python básico
 - Algoritmos
 - Proyecto final: juego
+- Proyecto extra: bot de Telegram
 
-### Parte II: IA
+### Parte II: Inteligencia Artificial
 - Introducción a la IA
 - Modelos con Tensorflow / Pytorch
 - Proyecto final: reconocimiento de fotografías
@@ -28,12 +29,14 @@ Hello, world.
 ---
 
 
-### La programación son cuatro cosas
+### La programación son cinco cosas
 
 1. Secuencia
 2. Condicionales
 3. Repetición
-4. Funciones
+4. Variables
+5. Funciones
+
 
 ---
 
@@ -118,10 +121,10 @@ t.color('red')
 
 
 
-**OJO**: las mayúsculas son importantes
+**OJO**: las mayúsculas/minúsculas son importantes
 <!-- .element class="centered" -->
 
-**OJO**: la alineación es importante
+**OJO**: la alineación del código es importante
 <!-- .element class="centered" -->
 
 EJERCICIOS SECUENCIA
