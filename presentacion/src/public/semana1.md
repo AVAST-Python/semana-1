@@ -4,6 +4,8 @@
 
 ![alt text](./img/logo2.png) <!-- .element style="margin-left: auto; margin-right: auto; display: block" -->
 
+Notes:
+Pasar la [encuesta](https://forms.gle/62m79xAeYoMCi8WV8)
 
 ---
 
@@ -15,6 +17,7 @@
 ### Parte I: programación
 - Python básico
 - Algoritmos
+- Herramientas de programación (git, tests, etc.)
 - Proyecto final: juego
 - Proyecto extra: bot de Telegram
 
@@ -152,8 +155,8 @@ t.forward(100)
 <!-- .element style="font-size: 0.8em" -->
 
 - Se pueden hacer cosas antes
-- La alineación nos dice lo que va "dentro" del `for``
-- Luego, el programa continuará
+- La alineación nos dice lo que va "dentro" del `for`
+- Después de repetir, el programa continuará como si tal cosa
 
 ---
 
@@ -172,8 +175,13 @@ t.forward(100)
 [https://www.pythonmorsels.com/repl/](https://www.pythonmorsels.com/repl/)
 
 - Puedo utilizar funciones "de calculadora"
-- Ojo a la precedencia de operadores: los paréntesis nunca sobran.
+- Ojo a la precedencia de operadores: los paréntesis nunca están de más.
 - No todo son números
+
+Notes:
+Precedencia:
+- `1+2*6`
+- `10/2*5`
 
 ---
 
