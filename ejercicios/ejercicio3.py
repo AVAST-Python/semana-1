@@ -4,65 +4,43 @@ t = turtle.Turtle('turtle')
 t.screen.setup(width=1000, height=1000, startx=0, starty=0)
 
 t.width(4)
-t.speed (500)
+t.speed (50)
 t.color('#4689BC')
 
 t.penup()
-t.goto(-450, 0)
+t.goto(-250, 0)
 t.pendown()
 
 
-# AQUI, CONTAR ALGO DE EXPRESIONES Y VARIABLES
+# Polígono regular
+lados = 5
+largo_lado = 100
 
-# Ejercicio guiado: un polígono genérico de n lados y longitud de lado l
-# Pista: En un polígono regular todos los ángulos internos son iguales
-# y la suma es igual a 180° × (n – 2).
-
-
-# Pinchos increasing
-# for vuelta in range(7):
-#     t.left(90)
-#     t.forward(30*vuelta)
-#     t.left(180)
-#     t.forward(30*vuelta)
-#     t.left(90)
-#     t.forward(30*vuelta)
-
-
-# DOBLES BUCLES
-
-# Ejemplo: dos triángulos
-# for vuelta in range(2):
-#     for lado in range(3):
-#         t.forward(100)
-#         t.left(120)
-#     t.forward(100)
-
-# Triángulo con cuadrados
-# t.right(15)
-# for i in range(3):
-#     for j in range(4):
-#         t.forward(100)
-#         t.left(90)
-#     t.left(120)
-
-# Estrella
-# Pista: En un polígono regular todos los ángulos internos son iguales
-# y la suma es igual a 180° × (n – 2).
-lados = 3
 angulo_interno = 180 * (lados - 2) / lados
 angulo_giro = 180 - angulo_interno
 
-# for vuelta in range(lados):
-#     t.forward(100)
-#     t.left(angulo_giro)
+for vuelta in range(lados):
+    t.forward(largo_lado)
+    t.left(angulo_giro)
 
-# Triangulos inscritos
-# for vuelta in range(4):
-#     for lado in range(3):
-#         t.forward(30+30*vuelta)
-#         t.left(120)
 
+t.penup()
+t.goto(100, 0)
+t.setheading(0)
+t.pendown()
+
+# Extra: con el vértice abajo
+lados = 5
+largo_lado = 100
+
+angulo_interno = 180 * (lados - 2) / lados
+angulo_giro = 180 - angulo_interno
+giro_inicial = 90 - angulo_interno / 2
+
+t.left(giro_inicial)
+for vuelta in range(lados):
+    t.forward(largo_lado)
+    t.left(angulo_giro)
 
 
 t.hideturtle()
