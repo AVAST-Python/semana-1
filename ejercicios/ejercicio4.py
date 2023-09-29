@@ -1,7 +1,7 @@
 import turtle
 
 t = turtle.Turtle('turtle')
-t.screen.setup(width=1000, height=1000, startx=0, starty=0)
+# t.screen.setup(width=1000, height=1000, startx=0, starty=0)
 
 t.width(4)
 t.speed (500)
@@ -38,7 +38,7 @@ t.penup()
 t.goto(-150, -250)
 t.pendown()
 
-# Extra; Flor
+# Extra: Flor
 lado = 10
 vueltas = 30
 for num_vuelta in range(vueltas):

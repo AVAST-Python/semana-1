@@ -1,7 +1,7 @@
 import turtle
 
 t = turtle.Turtle('turtle')
-t.screen.setup(width=1300, height=1000, startx=0, starty=0)
+# t.screen.setup(width=1300, height=1000, startx=0, starty=0)
 
 t.width(4)
 t.speed (500)

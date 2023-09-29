@@ -5,7 +5,7 @@ t = turtle.Turtle('turtle')
 
 t.speed(100)
 # t.screen.setup (width=1024, height=1024, startx=3020, starty=200) # Right monitor
-t.screen.setup (width=1024, height=900, startx=500, starty=0) # Left monitor
+# t.screen.setup (width=1024, height=900, startx=500, starty=0) # Left monitor
 
 t.penup()
 t.setpos(-500, 000)

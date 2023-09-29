@@ -272,5 +272,7 @@ y la suma es igual a 180° × (lados – 2).
 
 # A almorzá
 
+- Presentación: [https://avast-python.github.io/semana-1/](https://avast-python.github.io/semana-1/)
+- Soluciones: [https://github1s.com/AVAST-Python/semana-1](https://github1s.com/AVAST-Python/semana-1)
 
 
