@@ -1,10 +1,8 @@
 
 
-# This is a presentation
+# Introducción a Python
 
-Hello, world.
-
-![alt text](banana.jpg) <!-- .element style="margin-left: auto; margin-right: auto; display: block" -->
+![alt text](./img/logo2.png) <!-- .element style="margin-left: auto; margin-right: auto; display: block" -->
 
 
 ---
@@ -12,7 +10,7 @@ Hello, world.
 
 # Tenemos un plan
 
-![Tenemos un plan](tenemos_un_plan.jpg) <!-- .element class="medium right" -->
+![Tenemos un plan](./img/tenemos_un_plan.jpg) <!-- .element class="medium right" -->
 
 ### Parte I: programación
 - Python básico
@@ -43,9 +41,9 @@ Hello, world.
 # ¡A pintá!
 
 
-![Una casita](casita.png) <!-- .element class="big center" -->
+![Una casita](./img/casita.png) <!-- .element class="big center" -->
 
---
+---
 
 [https://pythonandturtle.com/turtle](https://pythonandturtle.com/turtle)
 
@@ -76,7 +74,7 @@ turtle.done()
 - Terminar (siempre igual)
 
 
---
+---
 
 ### Mover la tortuga
 
@@ -112,14 +110,12 @@ t.pendown()
 t.color('red')
 ```
 
---
+---
 
 # Pues a pintá
 
 [https://pythonandturtle.com/turtle](https://pythonandturtle.com/turtle)
 <!-- .element class="centered" style="margin-top: -3rem;" -->
-
-
 
 **OJO**: las mayúsculas/minúsculas son importantes
 <!-- .element class="centered" -->
@@ -127,7 +123,49 @@ t.color('red')
 **OJO**: la alineación del código es importante
 <!-- .element class="centered" -->
 
-EJERCICIOS SECUENCIA
+![Ejercicio 1](./img/ejercicio_1.png) <!-- .element class="noborder center" -->
+
+- *Extra*: Dibuja un triángulo isósceles
+- *Super extra*: Dibuja un triángulo isósceles... y no lo hagas "a ojo"
 
 Note:
+- Ejemplo: cuadrado
 https://docs.python.org/3/library/turtle.html#turtle-graphics-reference
+
+---
+
+# Repeticiones
+
+```python[0|1-2|5-8|5|6-8|10-11]
+# Hago cosas antes
+t.forward(100)
+
+# Repito tres veces
+for num_vuelta in range(3):
+    # Esto es lo que se repite, ojo a la identación
+    t.forward(100)
+    t.left(90)
+
+# Luego puedo hacer más cosas
+t.forward(100)
+```
+<!-- .element style="font-size: 0.8em" -->
+
+- Se pueden hacer cosas antes
+- La alineación nos dice lo que va "dentro" del `for``
+- Luego, el programa continuará
+
+---
+
+# A pintá
+
+[https://pythonandturtle.com/turtle](https://pythonandturtle.com/turtle)
+<!-- .element class="centered" style="margin-top: -3rem;" -->
+
+
+![Ejercicio 2](./img/ejercicio_2.png) <!-- .element class="noborder center" -->
+
+---
+
+# Expresiones y variables
+## TODO

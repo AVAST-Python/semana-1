@@ -11,79 +11,107 @@ t.penup()
 t.setpos(-500, 000)
 t.pendown()
 
-t.width(1)
+t.width(4)
 t.speed (500)
-t.color('red')
+t.color('#4689BC')
 
-# Cuadrado
-# TO-DO
+# Ejemplo: cuadrado
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
+
+t.penup()
+t.left(90)
+t.forward(200)
+t.pendown()
 
 # Escalera
-# t.left(90)
-# t.forward(100)
-# t.right(90)
-# t.forward(150)
-# t.right(90)
-# t.forward(50)
-# t.left(90)
-# t.forward(150)
-# t.right(90)
-# t.forward(50)
+t.left(90)
+t.forward(100)
+t.right(90)
+t.forward(150)
+t.right(90)
+t.forward(50)
+t.left(90)
+t.forward(150)
+t.right(90)
+t.forward(50)
 
 
-# t.penup()
-# t.left(90)
-# t.forward(100)
-# t.pendown()
+t.penup()
+t.left(90)
+t.forward(100)
+t.pendown()
 
 
 # Triangulo equilátero
-# t.forward(100)
-# t.left(180-60)
-# t.forward(100)
-# t.left(180-60)
-# t.forward(100)
+t.forward(100)
+t.left(180-60)
+t.forward(100)
+t.left(180-60)
+t.forward(100)
 
 
-# t.penup()
-# t.left(180-60)
-# t.forward(200)
-# t.pendown()
+t.penup()
+t.left(180-60)
+t.forward(200)
+t.pendown()
+
+# Casita
+# Habitaciones
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+# Techo
+t.left(90)
+t.forward(100)
+t.right(90-60)
+t.forward(100)
+t.right(180-60)
+t.forward(100)
 
 # Triángulo isósceles
-t.penup()
-t.setpos(-200,0)
-t.pendown()
+# t.penup()
+# t.setpos(-200,0)
+# t.pendown()
 
 
 
 
-import math
-top_angle = 40
-base_angle = (180 - top_angle) / 2
-base = 100
-altura = base/2 *math.sin(base_angle)
+# import math
+# top_angle = 40
+# base_angle = (180 - top_angle) / 2
+# base = 100
+# altura = base/2 *math.sin(base_angle)
 
 
-t.color('blue')
-t.forward(base/2)
-t.left(90)
-t.forward(altura)
-t.penup()
-t.setpos(-200,0)
-t.pendown()
-t.setheading(0)
-t.color('red')
+# t.color('blue')
+# t.forward(base/2)
+# t.left(90)
+# t.forward(altura)
+# t.penup()
+# t.setpos(-200,0)
+# t.pendown()
+# t.setheading(0)
+# t.color('red')
 
-side = math.sqrt((base/2)**2 + altura**2)
+# side = math.sqrt((base/2)**2 + altura**2)
 
-t.forward(base)
-t.left(180-base_angle)
-t.forward(side)
-t.left(180-top_angle)
-t.forward(side)
-t.left(180-base_angle)
+# t.forward(base)
+# t.left(180-base_angle)
+# t.forward(side)
+# t.left(180-top_angle)
+# t.forward(side)
+# t.left(180-base_angle)
 
-# turtle.done()
-# t.hideturtle()
+t.hideturtle()
 turtle.exitonclick()

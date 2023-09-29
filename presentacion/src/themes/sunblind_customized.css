@@ -60,11 +60,11 @@ p:has(img.center){
   text-align: center;
 }
 
-
 .reveal section img.big {
   width: auto;
   height: 90%;
 }
+
 .reveal section img.medium {
   width: auto;
   height: 300px;
@@ -72,6 +72,11 @@ p:has(img.center){
 .reveal section img.small {
   width: auto;
   height: 200px;
+}
+
+.reveal section img.noborder {
+  border: none;
+  box-shadow: none;
 }
 
 .reveal .slides {

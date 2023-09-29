@@ -36,7 +36,7 @@ Reveal.initialize({
 		width: 1280,
 		height: 1050,
 		controls: true,
-		navigationMode: 'grid',
+		navigationMode: 'default',
 		progress: true,
     history: true,
 	  transition: 'fade', // possible values: 'linear', 'slide', 'zoom', 'concave', 'convex', 'fade'.
