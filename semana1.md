@@ -9,6 +9,9 @@ Pasar la [encuesta](https://forms.gle/62m79xAeYoMCi8WV8)
 
 ---
 
+![alt text](./img/jim-carrey-jim-carrey-typing.gif) <!-- .element style="margin-left: auto; margin-right: auto; display: block" -->
+
+---
 
 # Tenemos un plan
 
@@ -272,5 +275,7 @@ y la suma es igual a 180° × (lados – 2).
 
 # A almorzá
 
+- Presentación: [https://avast-python.github.io/semana-1/](https://avast-python.github.io/semana-1/)
+- Soluciones: [https://github1s.com/AVAST-Python/semana-1](https://github1s.com/AVAST-Python/semana-1)
 
 
