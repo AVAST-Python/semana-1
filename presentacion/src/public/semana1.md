@@ -9,6 +9,9 @@ Pasar la [encuesta](https://forms.gle/62m79xAeYoMCi8WV8)
 
 ---
 
+![alt text](./img/jim-carrey-jim-carrey-typing.gif) <!-- .element style="margin-left: auto; margin-right: auto; display: block" -->
+
+---
 
 # Tenemos un plan
 
