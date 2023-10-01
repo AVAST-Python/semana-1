@@ -4,8 +4,8 @@ import turtle
 t = turtle.Turtle('turtle')
 
 t.speed(100)
-# t.screen.setup (width=1024, height=1024, startx=3020, starty=200) # Right monitor
-# t.screen.setup (width=1024, height=900, startx=500, starty=0) # Left monitor
+t.screen.setup (width=1024, height=1024, startx=3020, starty=200) # Right monitor
+t.screen.setup (width=1024, height=900, startx=500, starty=0) # Left monitor
 
 t.penup()
 t.setpos(-500, 000)
@@ -80,38 +80,30 @@ t.right(180-60)
 t.forward(100)
 
 # Triángulo isósceles
-# t.penup()
-# t.setpos(-200,0)
-# t.pendown()
+t.penup()
+t.setpos(-200,-300)
+t.setheading(0)
+t.pendown()
+
+import math
+base = 100
+angulo = 75
+
+altura = ( base / 2 ) * math.tan(math.radians(angulo))
+lado = math.sqrt(  ( base / 2 )**2 + altura**2   )
+
+print(altura)
+print(lado)
 
 
+t.forward(base)
+t.left(180-angulo)
+t.forward(lado)
+t.left(2*angulo)
+t.forward(lado)
 
-
-# import math
-# top_angle = 40
-# base_angle = (180 - top_angle) / 2
-# base = 100
-# altura = base/2 *math.sin(base_angle)
-
-
-# t.color('blue')
-# t.forward(base/2)
-# t.left(90)
-# t.forward(altura)
-# t.penup()
-# t.setpos(-200,0)
-# t.pendown()
-# t.setheading(0)
-# t.color('red')
-
-# side = math.sqrt((base/2)**2 + altura**2)
-
-# t.forward(base)
-# t.left(180-base_angle)
-# t.forward(side)
-# t.left(180-top_angle)
-# t.forward(side)
-# t.left(180-base_angle)
+t.penup()
+t.forward(100)
 
 t.hideturtle()
 turtle.exitonclick()
