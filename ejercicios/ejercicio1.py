@@ -1,12 +1,11 @@
 import turtle
+from configure_screen import position_screen
 
 # Turtle script example
 t = turtle.Turtle('turtle')
+position_screen(t)
 
 t.speed(100)
-
-from configure_screen import position_screen
-position_screen(t)
 
 t.penup()
 t.setpos(-500, 000)
